@@ -118,8 +118,13 @@ container-full{
 /*====nav-bar-end====*/
 
 /*====home-css-start====*/
+.container{
+    margin-bottom: 100px;
+}
 .carousel-box{
     background:#fceae8 !important;
+    border-radius: 10px !important;
+   
 }
 .buy-now a{
     margin-top: 5px !important;
@@ -129,6 +134,7 @@ container-full{
     text-decoration: none;
     border-radius: 5px !important;
     font-family: 'Roboto', sans-serif !important;
+    cursor: pointer;
    
 }
 .carousel-item{
@@ -139,10 +145,5 @@ container-full{
     font-family: 'Roboto', sans-serif !important;
     font-weight: 600;
     color: #FF136F !important;
-
-}
-.carousel-box-content h1{
-
-    font-size: 40px !important;
 
 }
